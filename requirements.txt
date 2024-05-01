@@ -1,0 +1,11 @@
+# Flask
+# gunicorn
+# Werkzeug
+dash
+pandas
+numpy
+scipy
+pyyaml
+plotly
+us
+azure-storage-blob
