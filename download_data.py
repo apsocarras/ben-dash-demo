@@ -8,6 +8,9 @@ with open(os.path.join('creds', 'api_info.yaml'), 'r') as file:
 
 download_dir = 'example_data'
 
+if not os.path.exists(download_dir): 
+    print(f'Creating directory {download_dir}/ to store downloads.')
+
 azure_manager = AzureBlobStorageManager(connection_str=creds['azure']['conn-str'], 
                                         container_name=creds['container-name-2'],
                                         download_dir=download_dir)

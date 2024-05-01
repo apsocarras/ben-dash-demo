@@ -36,6 +36,8 @@ pip install -r requirements.txt
 python download_data.py
 ```
 
+This will create a folder called `example_data/`.
+
 Note that `creds/` contains credentials to the storage container containing the example data and API keys to use the Skills Matcher. This isn't best practice but there is nothing sensitive here and I want to simplify this procedure for you.
 
 5. Run `app.py` and open the demo dashboard in your browser:  
