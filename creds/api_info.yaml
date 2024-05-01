@@ -1,0 +1,11 @@
+career-onestop:
+  user-id: XjV8e71wBCteYXb
+  token-key: zAVtnEJpJ1zL72VrZQE9add1EjhDM4C3q/mNGDdRAM2KHk5AAJqLPGgKYt9hPtk3Oy1Dp7aF/d+IefaHllQ1MA==
+  headers:
+    Authorization: "Bearer zAVtnEJpJ1zL72VrZQE9add1EjhDM4C3q/mNGDdRAM2KHk5AAJqLPGgKYt9hPtk3Oy1Dp7aF/d+IefaHllQ1MA=="
+bls: 3170df1c6e1c47b5916189d7a0abd9f0
+azure:
+  conn-str: DefaultEndpointsProtocol=https;AccountName=benefitscliffs;AccountKey=SH5QDckWTeJEGRlLrwAV8GvoLe0JYNJeyILFOWEDxthUtLoUc5yjkdZ/SPdEtxdD2RYIQOKpEMdj+ASt7VAt/Q==;EndpointSuffix=core.windows.net
+  container-name-1: oews
+  container-name-2: dashboard
+  storage-account: benefitscliffs 

@@ -12,7 +12,7 @@ cd /path/to/your/desired/directory # e.g. a folder called Projects/
 1. Clone this repo to your local directory: 
 
 ```bash
-git clone # TO-DO 
+git clone https://github.com/apsocarras/ben-dash-demo.git
 ```
 
 2. Create & activate a python virtual environment: 
