@@ -16,7 +16,6 @@ blob_list = azure_manager.list_blobs()
 expected_blobs = ["all-counties_three-profile_example.csv",
 "DASH_exports_combined_New-Castle-County_30-adult_5-child_2-child_EDU+CODES.csv",
 "GetSkills_Response.json",
-"skills-matcher-results-latest.csv",
 "SubmitSkills_example_request.json",
 "SubmitSkills_example_response.json", 
 "counties.json"]
@@ -29,3 +28,5 @@ for blob_name in expected_blobs:
         if not os.path.isfile(os.path.join('example_data', blob_name)):
             print(f"Downloading {blob_name} to {download_dir}/")
             azure_manager.download_blob(blob_name)
+        else: 
+            print(f"{blob_name} already downloaded to {download_dir}. Skipping.")
