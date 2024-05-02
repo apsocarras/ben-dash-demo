@@ -9,10 +9,13 @@ Complete the following commands in your terminal.
 cd /path/to/your/desired/directory # e.g. a folder called Projects/
 ```
 
-1. Clone this repo to your local directory: 
+1. Clone this repo to your local directory and change into it: 
 
 ```bash
 git clone https://github.com/apsocarras/ben-dash-demo.git
+
+cd ben-dash-demo/
+
 ```
 
 2. Create & activate a python virtual environment: 
